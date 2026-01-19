@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #c77dff, #9d4edd);
+            color: #333;
+        }
+
+        .container {
+            width: 1100px;
+            max-width: 95%;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        /* Intro Card */
+        .intro {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .intro h1 {
+            color: #6a00f4;
+            font-size: 40px;
+        }
+
+        .intro p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .intro-buttons {
+            margin-top: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(45deg, #c77dff, #9d4edd);
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        /* Section */
+        .section {
+            margin-top: 60px;
+        }
+
+        .section h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        /* Gallery */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        .photo-card {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        .photo-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .photo-card p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 80px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h2>SNEAK-PEEK</h2>
+        <div>
+                        <a href="first.html">Home</a>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <div class="intro">
+        <h1>Hi!✨</h1>
+        <p>
+            Well I was excited and I experimented little bit with html. Had fun! NGL!        </p>
+
+        <div class="intro-buttons">
+            <a href="#you" class="btn"> YOU</a>
+            <a href="#us" class="btn"> US</a>
+        </div>
+    </div>
+
+    <!-- YOU Section -->
+    <div class="section" id="you">
+        <h2>YOU</h2>
+
+        <div class="gallery">
+            <div class="photo-card">
+                <img src="flowerboy.jpeg">
+                <p>Flower-BOY</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="gym2.jpeg">
+                <p>*insert thirsty emoji..XD</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="high-ass.jpeg">
+                <p>High-Ass</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="spotifywrap.jpeg">
+                <p>Spotify-Yap</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- US Section -->
+    <div class="section" id="us">
+        <h2>US</h2>
+
+        <div class="gallery">
+            <div class="photo-card">
+                <img src="us1.jpeg">
+                <p>BEST CANDID!</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="us2.jpeg">
+                <p>Y so serious sir?</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="us3.jpeg">
+                <p>Cutiess</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="us4.jpeg">
+                <p>Baby Cuties</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© Say yes to smoking..XD</p>
+    </div>
+
+</div>
+
+</body>
+</html>
